@@ -1,0 +1,22 @@
+# --- Security (CRITICAL) ---
+.env
+db.sqlite3
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# --- Django ---
+*.log
+staticfiles/
+media/
+
+# --- IDE/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
